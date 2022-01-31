@@ -8,15 +8,35 @@ num_prim <- function(x, y, z) {
         {
         for (l in z)
         {
-          print("Resultados x");
-          x <- (i/a);
-          print(i) | print(a) | print(x) ;
-          print("Resultados y");
-          y <- (j/a);
-          print(j) | print(a) |  print(y);
-          print("Resultados z");
-          z <- (l/a);
-          print(l) | print(a) |  print(z)
+          print("Valor x") ;
+          x <- (i/a) ;
+          print(i) ;
+          print("Números primos") ;
+          print(a) ;
+          print("Resultados") ;
+          print(x) ;
+          
+          print("###############") ;
+          
+          
+          print("Valor y") ;
+          y <- (j/a) ;
+          print(j) ;
+          print("Números primos") ;
+          print(a) ;
+          print("Resultados") ;
+          print(y) ;
+          
+          print("###############") ;
+          
+          
+          print("Valor z") ;
+          z <- (l/a) ;
+          print(l) ;
+          print("Números primos") ;
+          print(a) ;
+          print("Resultados") ;
+          print(z)
       }
     }
     }
@@ -25,5 +45,8 @@ num_prim <- function(x, y, z) {
    
 num_prim(5400, 7342, 3462)
 
-## Desafio: Quais são os números primos que divididos por
+## Desafio: Quais são os números primos entre 1 e 50 que divididos por 5400, 7342 e 3462 
+## resultam em 771.4286, 564.7692 e 73.65957, respectivamente?
+
+## Resposta: 
 
