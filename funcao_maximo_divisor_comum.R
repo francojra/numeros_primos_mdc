@@ -8,13 +8,12 @@ mdc <- function(x, y) {
       for (j in y)
         {
           x <- (i/a);
+          if ((x) == 320) break ;
           print(i) | print(a) | print(x) ;
           print("######");
-          if ((x) == 1) break ;
           y <- (j/b);
-          print(b) | print(j) |  print(y);
-          print("######");
-          if ((y) == 1) break ; 
+          print(j) | print(b) |  print(y);
+          if ((y) == 400) break ; 
       }
     }
       }
@@ -22,4 +21,4 @@ mdc <- function(x, y) {
 
 mdc(2880, 3600)
 
-## Desafio: qual o número primo divisor de x (2880) e y (3600) que resultam em 320 e 400?
+## Desafio: qual o número primo divisor de x (2880) e y (3600) que resultam em 320 e 400, respectivamente?
