@@ -1,24 +1,29 @@
-num_prim <- function(x, y) {
-  if (is.numeric(x) && is.numeric(y))
+num_prim <- function(x, y, z) {
+  if (is.numeric(x) && is.numeric(y) && is.numeric(z))
   {
-    a <- c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)
-    b <- c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47)
+    a <- c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47) # Números primos entre 1 e 50
     for (i in x)
     {
       for (j in y)
         {
+        for (l in z)
+        {
+          print("Resultados x");
           x <- (i/a);
-          if ((x) == 92.90323) break ;
           print(i) | print(a) | print(x) ;
-          print("######");
-          y <- (j/b);
-          if ((y) == 116.12903) break ; 
-          print(j) | print(b) |  print(y);
+          print("Resultados y");
+          y <- (j/a);
+          print(j) | print(a) |  print(y);
+          print("Resultados z");
+          z <- (l/a);
+          print(l) | print(a) |  print(z)
       }
     }
-      }
+    }
+  }
 }
    
-num_prim(2880, 3600)
+num_prim(5400, 7342, 3462)
 
-## Desafio: 
+## Desafio: Quais são os números primos que divididos por
+
